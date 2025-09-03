@@ -1,0 +1,31 @@
+{
+  "rpcUrl": "https://binance.llamarpc.com", 
+  "addresses": {
+    "pancakeV2Router": "0x10ED43C718714eb63d5aA57B78B54704E256024E",          
+    "pancakeV3QuoterV2": "0xB048Bbc1Ee6b733FFfCFb9e9CeF7375518e25997",         
+    "wombatPool": "0x312Bc7eAAF93f1C60Dc5AfC115FcCDE161055fb0"                 
+  },
+  "tokens": {
+    "WBNB": { "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c", "decimals": 18 },
+    "USDT": { "address": "0x55d398326f99059fF775485246999027B3197955", "decimals": 18 },
+    "USDC": { "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d", "decimals": 18 },
+    "BUSD": { "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56", "decimals": 18 }
+  },
+  "v3FeeTiers": {
+    "WBNB/USDT": 2500,
+    "USDT/WBNB": 2500,
+    "USDC/WBNB": 2500,
+    "WBNB/USDC": 2500,
+    "USDT/USDC": 500,
+    "USDC/USDT": 500
+  },
+  "sizesWBNB": ["0.01", "0.02", "0.05", "0.1"],
+  "pollIntervalMs": 5000,
+  "flashloanFeeBps": 9,
+  "defaultGasPriceGwei": "3",
+  "gasEstimates": {
+    "v2Swap": 120000,
+    "v3Swap": 150000,
+    "wombatSwap": 120000
+  }
+}

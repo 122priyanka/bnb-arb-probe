@@ -1,0 +1,16 @@
+{
+  "name": "arbitrage_bot",
+  "version": "1.0.0",
+  "main": "scan-probe.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ethers": "^6.15.0"
+  }
+}
