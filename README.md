@@ -7,3 +7,14 @@ Detect **candidate arbitrage opportunities** by probing quotes (read-only) acros
 
 > **No transactions are sent. Quotes only.**  
 > Uses `ethers@6`, Node 18+. No external SDKs.
+
+**How to Run** 
+1. Clone the repository
+git clone https://github.com/your-username/bnb-arb-probe.git
+cd bnb-arb-probe
+
+2. Install dependencies
+npm install
+
+3. Run the script
+node scan-probe.js
